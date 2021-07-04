@@ -3,11 +3,16 @@
   <title>Git của Quyết :3</title>
 </head>
 <body>
-
+  <div id="test"></div>
 </body>
 <foot>
-  <script>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        
+  <script type="text/javascript">
   alert("Welcom to Git của Quyết !");
+  setInterval(function(){
+   $('#my_div').load('getdata.php');
+  }, 2000) /* time in milliseconds (ie 2 seconds)*/
   </script>
 </foot>
 
